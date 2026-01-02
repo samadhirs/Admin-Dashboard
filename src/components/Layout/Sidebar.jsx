@@ -107,7 +107,7 @@ function Sidebar({collapsed, onToggle, currentPage, onPageChange}) {
   return (
     <div className={`${
       collapsed ? "w-20" : "w-72"
-    }  transition duration-300 ease-in-out bg-white/80 dark:bg-slate-900/80
+    }  transition-all duration-300 ease-in-out bg-white/80 dark:bg-slate-900/80
     backdrop-blur-xl border-r border-slate-200/50 dark:border-slate-700/50 flex flex-col
     relative z-10`}>
 
@@ -160,9 +160,9 @@ function Sidebar({collapsed, onToggle, currentPage, onPageChange}) {
                   {/* Conditional Rendering */}
                   <>
                   {!collapsed && (
+                    <>
                     <span className="font-medium ml-2">{item.label}</span>
-                  )}
-                  {item.badge && (
+                    {item.badge && (
                     <span className="px-2 py-1 text-xs bg-red-500 text-white rounded-full">
                       {item.badge}
                     </span>
@@ -173,8 +173,11 @@ function Sidebar({collapsed, onToggle, currentPage, onPageChange}) {
                       {item.count}
                     </span>
                   )}
-
                   </>
+                  )}
+                  
+                  </>
+                  
                 </div>
 
                 {!collapsed && item.submenu && (
