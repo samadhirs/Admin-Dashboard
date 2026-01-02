@@ -26,25 +26,25 @@ function Header() {
         {/* Center */}
         <div className="flex-1 max-w-md mx-8">
           <div className="relative">
-            <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 
+            <Search className="w-4 h-4 absolute left-2 top-1/2 transform -translate-y-1/2 
             text-slate-400"/>
             <input 
             type="text" 
-            placeholder="Search Anything" 
-            className="w-full pl-8 pr-4 py-2.5 bg-slate-100 dark:bg-slate-800 border 
+            placeholder="Search" 
+            className="w-full pl-7 pr-3 py-2.5 bg-slate-100 dark:bg-slate-800 border 
             border-slate-200 dark:border-slate-700 rounded-xl text-slate-800 
             dark:text-white placeholder-slate-500 focus:outline-none focus:ring-2 
             focus:ring-blue-500 focus:border-transparent transition-all"
             />
-            <button className="absolute right-2 top-1/2 transform -translate-y-1/2 p-1.5 
+            <button className="absolute right-1 top-1/2 transform -translate-y-1/2 p-1.5 
             text-slate-400 hover:text-slate-600 dark:hover:text-slate-300">
-              <Filter />
+              <Filter className="w-4 h-4"/>
             </button>
           </div>
         </div>
 
         {/* Right */}
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-1">
 
         {/* Quick Action */}
         <button className="hidden lg:flex items-center space-x-2 py-2 px-3
