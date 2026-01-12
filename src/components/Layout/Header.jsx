@@ -30,7 +30,7 @@ function Header({ sidebarCollapesed, onToggleSidebar }) {
             text-slate-400"/>
             <input 
             type="text" 
-            placeholder="Search" 
+            placeholder="Search anything" 
             className="w-full pl-7 pr-3 py-2.5 bg-slate-100 dark:bg-slate-800 border 
             border-slate-200 dark:border-slate-700 rounded-xl text-slate-800 
             dark:text-white placeholder-slate-500 focus:outline-none focus:ring-2 
