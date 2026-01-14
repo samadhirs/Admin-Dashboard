@@ -18,7 +18,7 @@ function Header({ sidebarCollapesed, onToggleSidebar }) {
           <div className="hidden md:block">
             <h1 className="text-2xl font-black text-slate-800 dark:text-white">Dashboard</h1>
             <p className="text-slate-500 dark:text-slate-400">
-              Welcome back, Kevin! here's what's happening today
+              Welcome back, Samadhi! here's what's happening today
             </p>
           </div>
         </div>
@@ -78,13 +78,13 @@ function Header({ sidebarCollapesed, onToggleSidebar }) {
         <div className="flex items-center space-x-2 pl-2 border-1 border-slate-200 
         dark:border-slate-700">
           <img 
-            src="https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-man-avatar-image-for-profile-png-image_9197908.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJaBE1zGqFHvIzpdYXTr1d8jsfO2ywxZceFw&s"
             alt="User"
             className="w-8 h-8 rounded-full ring-2 ring-blue-500"
             />
           <div className="hidden md:block">
           <p className="text-sm font-medium text-slate-500 dark:text-slate-400">
-            Kevin Pieris
+            Samadhi Samarakoon
           </p>
           <p className="text-xs text-slate-500 dark:text-slate-400">
             Administrator

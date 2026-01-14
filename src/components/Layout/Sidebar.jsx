@@ -210,7 +210,7 @@ function Sidebar({collapsed, onToggle, currentPage, onPageChange}) {
         <div className="p-4 border-t border-slate-200/50 dark:border-slate-700/50">
         <div className="flex items-center space-x-3 p-3 rounded-xl bg-slate-50 dark:bg-slate-800/50">
           <img
-            src="https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-man-avatar-image-for-profile-png-image_9197908.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJaBE1zGqFHvIzpdYXTr1d8jsfO2ywxZceFw&s"
             alt="user"
             className="w-10 h-10 rounded-full ring-2 ring-blue-500"
           
@@ -218,7 +218,7 @@ function Sidebar({collapsed, onToggle, currentPage, onPageChange}) {
           <div className="flex-1 min-w-0">
             <div className="flex-1 min-w-0">
               <p className="text-sm font-medium text-slate-800 dark:text-white truncate">
-                Kevin Pieris
+                Samadhi Samarakoon
               </p>
               <p className="text-xs text-slate-500 dark:text-slate-400 truncate">
                 Administrator
