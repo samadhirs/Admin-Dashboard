@@ -84,7 +84,7 @@ function Header({ sidebarCollapesed, onToggleSidebar }) {
             />
           <div className="hidden md:block">
           <p className="text-sm font-medium text-slate-500 dark:text-slate-400">
-            Samadhi Samarakoon
+            Samadhi R.S
           </p>
           <p className="text-xs text-slate-500 dark:text-slate-400">
             Administrator
